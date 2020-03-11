@@ -1,0 +1,93 @@
+body {
+    font-family: Open Sans, sans-serif;
+    color: #A350A3;
+    background-color: #0F0C24;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: rgb(193,67,109)
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: #C1436D;
+}
+
+h3 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: left;
+    font-size: small;
+    color: hsl(100, 100%, 100%)
+}
+
+p {
+    line-height: 1.4;
+    margin: 40px;
+}
+
+figcaption {
+    font-size: 90%;
+    color: white;
+    text-align: center;
+}
+
+a[target] {
+    color: #C1436D;
+}
+
+a:hover {
+    background-color: #A350A3;
+    color: #FFFFFF;
+}
+
+#proton-logo {
+    max-width: 200px;
+}
+
+#proton-desktop-mobile {
+    max-width: 300px;
+}
+
+#product-description {
+    margin: 20px 175px;
+    text-align: justify;
+}
+
+#footer {
+    font-size: small;
+    text-align: center;
+    color: #C1436D;
+}
+
+div.review {
+    padding: 2px 50px;
+    margin: 20px 250px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media only screen and (min-width:320px) {
+    #product-description {
+        margin: 10px 30px;
+    }
+
+    div.review {
+        margin: 5px 10px;
+    }
+
+    p {
+        margin: 5px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
